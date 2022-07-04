@@ -1,0 +1,64 @@
+﻿type,name,m,kg,s,A,K,cd,mol,unitName,unitSymbol,wikiLink
+Base,Time,0,0,1,0,0,0,0,Second,s,Time
+Base,Length,1,0,0,0,0,0,0,Metre,m,Length
+Base,Mass,0,1,0,0,0,0,0,Kilogram,kg,Mass
+Base,Current,0,0,0,1,0,0,0,Ampere,A,Electric_current
+Base,Temperature,0,0,0,0,1,0,0,Kelvin,kg,Thermodynamic_temperature
+Base,Amount,0,0,0,0,0,0,1,Mole,mol,Amount_of_substance
+Base,Luminous Intensity,0,0,0,0,0,1,0,Candela,cd,Luminous_intensity
+Kinematic,Velocity,1,0,-1,0,0,0,0,,,Acceleration
+Kinematic,Acceleration,1,0,-2,0,0,0,0,,,Acceleration
+Kinematic,Jerk,1,0,-3,0,0,0,0,,,Jerk_(physics)
+Kinematic,Volumetric Flow,3,0,-1,0,0,0,0,,,Volumetric_flow
+Mechanical,Mass Flow Rate,0,1,-1,0,0,0,0,,,Mass_flow_rate
+Mechanical,Area,2,0,0,0,0,0,0,,,Area
+Mechanical,Volume,3,0,0,0,0,0,0,,,Volume
+Mechanical,Force,1,1,-2,0,0,0,0,Newton,N,Force
+Mechanical,Pressure,-1,1,-2,0,0,0,0,Pascal,Pa,Pressure
+Mechanical,Energy,2,1,-2,0,0,0,0,Joule,J,Energy
+Mechanical,Power,2,1,-3,0,0,0,0,Watt,W,Power_(physics)
+Mechanical,Momentum,1,1,-1,0,0,0,0,,,Momentum
+Mechanical,Angular Momentum,2,1,-1,0,0,0,0,,,Angular_momentum
+Mechanical,Torque,2,1,-2,0,0,0,0,,,Torque
+Mechanical,Yank,1,1,-3,0,0,0,0,,,Yank_(physics)
+Mechanical,Density,-3,1,0,0,0,0,0,,,Density
+Mechanical,Action,2,1,-1,0,0,0,0,,,Action_(physics)
+Mechanical,Specific Energy,2,0,-2,0,0,0,0,,,Specific_energy
+Mechanical,Energy Density,-1,1,-2,0,0,0,0,,,Energy_density
+Mechanical,Stiffness,0,1,-2,0,0,0,0,,,Stiffness
+Mechanical,Irradiance,0,1,-3,0,0,0,0,,,Irradiance
+Mechanical,Kinematic Viscosity,2,0,-1,0,0,0,0,,,Kinematic_viscosity
+Mechanical,Dynamic Viscosity,-1,1,-1,0,0,0,0,,,Viscosity
+Mechanical,Energy Flux Density,0,1,-3,0,0,0,0,,,Energy_flux_density
+Mechanical,Moment of Inertia,0,0,0,0,0,0,0,,,Moment_of_inertia
+Mechanical,Compressibility,1,-1,2,0,0,0,0,,,Compressibility
+Mechanical,Radiant Intensity,2,1,-3,0,0,0,0,,,Radiant_intensity
+Photometric,Luminance,-2,0,0,0,0,1,0,,,Illuminance
+Photometric,Luminous Efficacy,-2,-1,3,0,0,1,0,,,Luminous_efficacy
+Photometric,Illuminance,-2,0,0,0,0,1,0,Lux,lx,Luminance
+Photometric,Luminous Energy,0,0,1,0,0,1,0,,,Luminous_energy
+Thermodynamic,Entropy,2,1,-2,0,-1,0,0,,,Entropy
+Thermodynamic,Specific Heat Capacity,2,0,-2,0,-1,0,0,,,Specific_heat_capacity
+Thermodynamic,Thermal Conductivity,1,1,-3,0,-1,0,0,,,Thermal_conductivity
+Thermodynamic,Thermal Resistance,-2,-1,3,0,1,0,0,,,Thermal_resistance
+Thermodynamic,Temperature Gradiant,-1,0,0,0,1,0,0,,,Temperature_gradient
+Electromagnetic,Electric Charge,0,0,1,1,0,0,0,Coulomb,C,Electric_charge
+Electromagnetic,Voltage,2,1,-3,-1,0,0,0,Volt,V,Voltage
+Electromagnetic,Capacitance,-2,-1,4,2,0,0,0,Farad,F,Capacitance
+Electromagnetic,Inductance,2,1,-2,-2,0,0,0,Henry,H,Inductance
+Electromagnetic,Impedance,2,1,3,-2,0,0,0,Ohm,Ω,Electrical_impedance
+Electromagnetic,Magnetic Flux,2,1,-2,-1,0,0,0,Weber,Wb,Magnetic_flux
+Electromagnetic,Magnetic Flux Density,0,1,-2,-1,0,0,0,Tesla,T,Magnetic_field
+Electromagnetic,Electric Displacement Field,-2,0,1,1,0,0,0,,,Electric_displacement_field
+Electromagnetic,Charge Density,-3,0,1,1,0,0,0,,,Charge_density
+Electromagnetic,Current Density,-2,0,0,1,0,0,0,,,Current_density
+Electromagnetic,Electrical Conductivity,-3,-1,3,2,0,0,0,,,Electrical_conductivity
+Electromagnetic,Permittivity,-3,-1,4,2,0,0,0,,,Permittivity
+Electromagnetic,Magnetic Permeability,1,1,-2,-2,0,0,0,,,Magnetic_permeability
+Electromagnetic,Electrical Field Strength,1,1,-3,-1,0,0,0,,,Electric_field
+Electromagnetic,Magnetization,-1,0,0,1,0,0,0,,,Magnetization
+Electromagnetic,Resistivity,3,1,-3,-2,0,0,0,,,Resistivity
+Electromagnetic,Linear Charge Density,-1,0,1,1,0,0,0,,,Linear_density
+Electromagnetic,Magnetic Dipole Moment,2,0,0,1,0,0,0,,,Magnetic_dipole_moment
+Electromagnetic,Electron Mobikity,0,-1,2,1,0,0,0,,,Electron_mobility
+Electromagnetic,Magnetic Moment,3,1,-2,-1,0,0,0,,,Magnetic_moment

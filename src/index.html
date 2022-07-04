@@ -2,14 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>My First Parcelasdf App</title>
-    <script src="hello.ts"></script>
+    <title>SI Dimensional Caclculator</title>
+    <script src="index.ts" type="module"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="elements.css">
   </head>
   <body>
-    <h1>Hello, World!</h1>
-    <input id="field1"/>
-    <input id="field2"/>
-    <button onclick="add_func()">Add</button>
-    <p id="answer"></p>
+    <h1>SI Dimensional Caclculator</h1>
+    <h2>Input</h2>
+    <select name="unitDrop" id="unitDrop"></select>
+    <button onclick="addUnit('num'); calculateFinal()">Put in Numerator</button>
+    <button onclick="addUnit('den'); calculateFinal()">Put in Denominator</button>
+    <br/><button onclick="clearScreen()">Clear</button>
+    <div id="input"></div>
+    <p id="finalDerivedUnit"></p>
+    <h2>Answers</h2>
+    <div class="answer" id="answer"></div>
   </body>
 </html>

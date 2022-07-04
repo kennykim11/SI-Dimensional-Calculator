@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.answer {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.fraction {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px;
+
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #000000;
+}
+
+.fractionBar {
+    height: 4px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.row {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px 10px;
+}
+
+.unitTile {
+    padding: 10px;
+    border: 1px solid #C5C5C5;
+    border-radius: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    cursor: pointer;
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+  
+.unitTile .tooltip {
+    visibility: hidden;
+    background-color: #333333;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    width: 200px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: -50%;
+
+    cursor: default;
+}
+
+.unitTile:hover .tooltip {
+    visibility: visible;
+}
+
+.tooltip p {
+    margin: 2px 0px;
+}
+
+.tooltip a {
+    color: #73DDFF;
+}
